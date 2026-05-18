@@ -1,3 +1,24 @@
-# .gitignore
+# 构建输出目录
+build/
+
+# 编译中间文件
+*.obj
+*.exe
+*.lib
+*.dll
+*.exp
+*.ilk
+*.pdb
+*.idb
+*.pch
+*.ipch
+
+# 编辑器和系统文件
 .vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 旧的可执行产物目录（已废弃）
 coin/
